@@ -1,10 +1,11 @@
 package queue;
-class MyQueue{
+
+class MyQueuee{
 	int size;
 	int cap;
 	int[] arr;
 	int front;
-	MyQueue(int x)
+	MyQueuee(int x)
 	{
 		size=0;
 		cap=x;
@@ -60,7 +61,7 @@ class MyQueue{
 			return;
 		}
 		front=(front+1)%cap;
-		size--;
+		
 	}
 }
 
@@ -68,6 +69,7 @@ public class QueueArrayImplementationUsingArrayOptimized {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		MyQueuee sb=new MyQueuee(7);
 
 	}
 
